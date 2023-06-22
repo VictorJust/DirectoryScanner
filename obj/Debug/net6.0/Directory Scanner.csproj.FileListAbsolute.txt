@@ -1,0 +1,16 @@
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\bin\Debug\net6.0\Directory Scanner.exe
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\bin\Debug\net6.0\Directory Scanner.deps.json
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\bin\Debug\net6.0\Directory Scanner.runtimeconfig.json
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\bin\Debug\net6.0\Directory Scanner.dll
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\bin\Debug\net6.0\Directory Scanner.pdb
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\obj\Debug\net6.0\NuGet\236FF1503CDAFFCA7665B33D68765816AA6FE917\MimeTypes\2.4.1\MimeTypes.cs
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\obj\Debug\net6.0\Directory Scanner.csproj.AssemblyReference.cache
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\obj\Debug\net6.0\Directory Scanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\obj\Debug\net6.0\Directory Scanner.AssemblyInfoInputs.cache
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\obj\Debug\net6.0\Directory Scanner.AssemblyInfo.cs
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\obj\Debug\net6.0\Directory Scanner.csproj.CoreCompileInputs.cache
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\obj\Debug\net6.0\Directory Scanner.dll
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\obj\Debug\net6.0\refint\Directory Scanner.dll
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\obj\Debug\net6.0\Directory Scanner.pdb
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\obj\Debug\net6.0\Directory Scanner.genruntimeconfig.cache
+C:\Users\Alexandra\source\repos\hurrdurr\Directory Scanner\obj\Debug\net6.0\ref\Directory Scanner.dll
