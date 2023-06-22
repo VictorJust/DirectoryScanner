@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bov/poeABERlQ2kv02waUn5dYyQeDzLSebTYEpxRapZC9W/ggvrGLam7BwmwPEUHZSWpRAsb8x840nU+da1Ejg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexandra\\source\\repos\\hurrdurr\\Directory Scanner\\Directory Scanner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexandra\\.nuget\\packages\\mimetypes\\2.4.1\\mimetypes.2.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
