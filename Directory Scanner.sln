@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory Scanner", "Directory Scanner.csproj", "{BB921FFB-811F-4960-99B2-111481743E1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory Scanner", "Directory Scanner.csproj", "{BB921FFB-811F-4960-99B2-111481743E1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryScannerTests", "..\DirectoryScannerTests\DirectoryScannerTests.csproj", "{3D0474A5-078D-47C0-AE90-4CDC28D4B42F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BB921FFB-811F-4960-99B2-111481743E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB921FFB-811F-4960-99B2-111481743E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB921FFB-811F-4960-99B2-111481743E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0474A5-078D-47C0-AE90-4CDC28D4B42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0474A5-078D-47C0-AE90-4CDC28D4B42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0474A5-078D-47C0-AE90-4CDC28D4B42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0474A5-078D-47C0-AE90-4CDC28D4B42F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

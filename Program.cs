@@ -7,19 +7,43 @@ class Program
 {
     static void Main()
     {
-        // Ask for a directory to scan
-        Console.WriteLine("Введите путь к директории для сканирования:");
-        string directoryPath = Console.ReadLine();
+        bool exitRequested = false;
 
-        // Scan the given directory if it is written correctly
-        if (!string.IsNullOrEmpty(directoryPath))
+        // Manage interaction with user 
+        while (!exitRequested)
         {
-            DirectoryScanner.ScanDirectory(directoryPath);
-        }
-        else
-        {
-            Console.WriteLine("Ошибка: путь к директории не введён или введён некорректно. Проверьте правильность ввода и повторите попытку.");
-            return; // Stop running the app
+            // Ask user to type a directory
+            Console.WriteLine("Введите путь к директории для сканирования (нажмите ESC для выхода):");
+            ConsoleKeyInfo keyInfo = Console.ReadKey();
+
+            // Close the app if Escape button is pressed
+            if (keyInfo.Key == ConsoleKey.Escape)
+                exitRequested = true;
+
+            // Scan files in given directory or give an error message if there is one
+            else
+            {
+                string directoryPath = keyInfo.KeyChar + Console.ReadLine();
+
+                if (!string.IsNullOrEmpty(directoryPath))
+                {
+                    if (Directory.Exists(directoryPath))
+                    {
+                        try
+                        {
+                            DirectoryScanner.ScanDirectory(directoryPath);
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Ошибка при сканировании директории: {ex.Message}");
+                        }
+                    }
+                    else
+                        Console.WriteLine("Ошибка: указанная директория не существует. Проверьте правильность пути и повторите попытку.");
+                }
+                else
+                    Console.WriteLine("Ошибка: путь к директории не введён или введён некорректно. Проверьте правильность ввода и повторите попытку.");
+            }
         }
     }
 }
