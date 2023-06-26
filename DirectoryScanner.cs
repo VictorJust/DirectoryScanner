@@ -6,6 +6,10 @@ namespace Directory_Scanner
 {
     public class DirectoryScanner
     {
+        // Dictionaries for storing data about files accordind to MIME type
+        private static Dictionary<string, int> mimeTypeCounts = new Dictionary<string, int>();
+        private static Dictionary<string, long> mimeTypeTotalSizes = new Dictionary<string, long>();
+
         public static void ScanDirectory(string directoryPath)
         {
             string fileName = $"results.html";
@@ -38,6 +42,18 @@ namespace Directory_Scanner
 
                 // Add file data to the list
                 filesData.Add(new FileData { FileName = fileItemName, FileSize = fileSize, MimeType = mimeType });
+
+                // Update mimeTypeCounts
+                if (mimeTypeCounts.ContainsKey(mimeType))
+                    mimeTypeCounts[mimeType]++;
+                else
+                    mimeTypeCounts[mimeType] = 1;
+
+                // Update mimeTypeTotalSizes
+                if (mimeTypeTotalSizes.ContainsKey(mimeType))
+                    mimeTypeTotalSizes[mimeType] += fileSize;
+                else
+                    mimeTypeTotalSizes[mimeType] = fileSize;
 
                 // Display file info
                 Console.WriteLine($"File: {fileItemName}, Size: {fileSize} B, MimeType: {mimeType}");
